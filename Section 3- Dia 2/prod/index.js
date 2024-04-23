@@ -10,14 +10,15 @@
 // Tipo Tuples
 // let item: [string, number, boolean] = ['Apple', 3, true];
 // Tipo Enum
-var Role;
-(function (Role) {
-    Role[Role["student"] = 1] = "student";
-    Role[Role["teacher"] = 2] = "teacher";
-    Role[Role["director"] = 3] = "director";
-})(Role || (Role = {}));
-const user = {
-    name: 'John',
-    age: 21,
-    role: Role.student
-};
+// enum Role { student = 1, teacher = 2, director = 3 }
+// const user = {
+//     name: 'John',
+//     age: 21,
+//     role: Role.student
+// }
+// Function return
+function add(num1, num2) {
+    return num1 + num2;
+}
+const result = add(2, 5);
+console.log(result);
