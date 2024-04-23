@@ -20,5 +20,8 @@
 function add(num1, num2) {
     return num1 + num2;
 }
-const result = add(2, 5);
-console.log(result);
+// Function void
+function result(price) {
+    console.log("The price is: " + price);
+}
+result(add(2, 3));

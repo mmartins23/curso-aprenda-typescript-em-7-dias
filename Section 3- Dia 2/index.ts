@@ -26,5 +26,10 @@ function add(num1: number, num2: number): number {
     return num1 + num2;
 }
 
-const result = add(2,5);
-console.log(result);
+
+// Function void
+function result(price: number) {
+    console.log("The price is: " + price);
+}
+
+result(add(2,3));
