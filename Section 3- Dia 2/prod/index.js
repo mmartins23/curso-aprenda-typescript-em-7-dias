@@ -17,11 +17,16 @@
 //     role: Role.student
 // }
 // Function return
-function add(num1, num2) {
-    return num1 + num2;
-}
+// function add(num1: number, num2: number): number {
+//     return num1 + num2;
+// }
 // Function void
-function result(price) {
-    console.log("The price is: " + price);
-}
-result(add(2, 3));
+// function result(price: number) {
+//     console.log("The price is: " + price);
+// }
+// result(add(2,3));
+// Objects
+const user = {
+    firstName: 'John',
+    age: 20
+};
