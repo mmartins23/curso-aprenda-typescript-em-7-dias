@@ -26,11 +26,34 @@
 
 
 // Literal type
-let productPrice: 10 | 20 | 30;
-let productSize: 'S' | 'M' | 'L';
+// let productPrice: 10 | 20 | 30;
+// let productSize: 'S' | 'M' | 'L';
 
-productPrice = 10;
-//productPrice = 5;
+// productPrice = 10;
+// //productPrice = 5;
 
-productSize = 'M';
-// productSize = 'XL';
+// productSize = 'M';
+// // productSize = 'XL';
+
+// Intersection type
+
+type User = {
+    firstName: string;
+    age: number;
+}
+
+type JobRole = {
+    id: number;
+    role: string;
+}
+
+type employee = User & JobRole;
+
+const e1: employee  = {
+    firstName: 'John',
+    age: 20,
+    id: 1,
+    role: 'student',
+}
+
+console.log(e1);
