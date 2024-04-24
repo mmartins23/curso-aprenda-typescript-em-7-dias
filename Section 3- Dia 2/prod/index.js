@@ -26,7 +26,15 @@
 // }
 // result(add(2,3));
 // Objects
-const user = {
-    firstName: 'John',
-    age: 20
-};
+// const user = {
+//     firstName: 'John',
+//     age: 20
+// }
+// Tipo unknown
+let itemInput;
+let itemName;
+itemInput = 10;
+itemInput = 'Apple';
+if (itemInput === 'string') {
+    itemName = itemInput;
+}
