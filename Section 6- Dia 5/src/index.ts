@@ -1,6 +1,6 @@
 class Users {
     name: string;
-    balance: number;
+    private balance: number;
 
     constructor(name: string, balance: number) {
         this.name = name;
