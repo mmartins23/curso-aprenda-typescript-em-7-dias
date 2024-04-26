@@ -23,16 +23,32 @@ room.AO2 = 'Charles';
 
 // Inheritance
 class Person {
-    constructor(public firstName: string, public lastName: string, public age: number) {}
+    constructor(public firstName: string, public lastName: string, public age: number) { }
 
-    greet() {
-        console.log(`Hi, I am ${this.firstName}`)
+    // Overriding
+    get greet() {
+        return this.firstName + " " + this.lastName;
     }
 }
 
 // Cliente do banco
 class Clients extends Person {
-    balance() {
-        console.log('Your balance is USD 50');
+    // Overriding
+    override get greet() {
+        return "Dear " + super.greet;
     }
 }
+
+class Staff extends Person {
+    // Overriding
+    override get greet() {
+        return "Hi " + super.greet;
+    }
+}
+
+let client1 = new Clients('Andre', "Silva", 30);
+let staff1 = new Staff('Bruna', "Martins", 20);
+
+console.log(client1.greet);
+console.log(staff1.greet);
+
