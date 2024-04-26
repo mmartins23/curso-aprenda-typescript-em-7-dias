@@ -1,12 +1,9 @@
 class Movies {
-    readonly id: number;
-    name: string;
-
-    constructor(id: number, name: string) {
-        this.id = id;
-        this.name = name;
+    constructor(
+        public readonlyid: number,
+        public name: string,
+        private _price: number) {
     }
 }
 
-let movie1 = new Movies(1, 'Spider-Man');
-// movie1.id = 2;
+let movie1 = new Movies(1, 'Spider-Man', 20);
