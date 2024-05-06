@@ -1,22 +1,29 @@
-# My TypeScript Course: From Basics to Advanced
+# Aprenda TYPESCRIPT em 7 dias + Projetos Reais (2024)
 
-Hello! Welcome to the README for my TypeScript Course: From Basics to Advanced. It was an incredible journey to learn and gain proficiency in the concepts of this powerful language. Below, I share what I learned and my certificate of completion.
+## Course Overview
 
-## What I Learned
+This repository contains all the projects and exercises completed during the TypeScript course. Throughout the course, you learned TypeScript from scratch and practiced your skills by completing various projects. You covered a wide range of topics including:
 
-- I learned to annotate types for any JavaScript object, providing greater clarity and safety to my code.
-- I thoroughly explored the basics of TypeScript's type system, including primitive types, function types, array types, object types, and more.
-- I delved into advanced TypeScript concepts such as generics, conditionals, type inference, and advanced type utilities.
-- I explored TypeScript interfaces, enabling the definition of clear and reusable contracts between different parts of my code.
-- I gained a deep understanding of the use of classes in TypeScript, adding an additional layer of abstraction and organization to my code.
-- I explored TypeScript modules and how they can help in organizing and modularizing my project.
+- Type annotations for any JavaScript object
+- Basics of TypeScript's type system
+- Advanced TypeScript concepts
+- TypeScript interfaces, classes, modules, and much more
 
-## Certificate of Completion
+## What I Have Learned
 
-[Certificate of Completion](https://udemy-certificate.s3.amazonaws.com/pdf/UC-cfa42dc5-bf0e-4ea7-b991-05029b974ba3.pdf)
+- Learned how to annotate any JavaScript object with types
+- Learned the basics of TypeScript's type system
+- Learned advanced TypeScript concepts
+- Learned about TypeScript interfaces, classes, modules, and more
 
-![Certificate of Completion](./UC-cfa42dc5-bf0e-4ea7-b991-05029b974ba3.jpg)
+## Course Certificate
 
+You can find **my course completion certificate** [here](https://udemy-certificate.s3.amazonaws.com/pdf/UC-cfa42dc5-bf0e-4ea7-b991-05029b974ba3.pdf)
 
+![Certificate](UC-cfa42dc5-bf0e-4ea7-b991-05029b974ba3.jpg)
 
-It was an amazing journey, and I am very proud of my progress. Now I am ready to apply my knowledge to real projects and continue growing as a developer. Thank you for joining me on this journey!
+Best of luck with your future projects and happy coding!
+
+---
+
+*This repository contains all the exercises and projects completed during the TypeScript course on Udemy.*
